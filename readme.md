@@ -16,7 +16,7 @@ HTML5, CSS3 (responsive, no framework), JavaScript (mobile menu), Git/GitHub, Ji
 
 ## Live link
 
-venerable-madeleine-416269.netlify.app
+www.https//:venerable-madeleine-416269.netlify.app
 
 ## Team responsibilities
 | Member | GitHub | Responsibility |
