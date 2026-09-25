@@ -2,7 +2,12 @@
 h1{
   font-family: "Times New Roman", Times, Bold, serif;
 }
-
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 @media(max-width:950px){.hero-grid,.split{grid-template-columns:1fr}.four{grid-template-columns:repeat(2,1fr)}.team{grid-template-columns:repeat(3,1fr)}.rad{grid-template-columns:1fr}.rad>span{transform:rotate(90deg);text-align:center}.nav-links{gap:14px}}
 @media(max-width:700px){.menu{display:block}.nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;padding:18px 24px;flex-direction:column;border-bottom:1px solid #dce6f0}.nav-links.open{display:flex}.hero{padding:65px 0}.section{padding:70px 0}.hero h1{font-size:43px}.four,.three,.team,.risks,.benefits{grid-template-columns:1fr}.benefits div{border-right:0;border-bottom:1px solid #dce6f0}.benefits div:last-child{border-bottom:0}.cta-inner,.footer{flex-direction:column;align-items:flex-start}.mockup{padding:22px}}
 .gh{display:inline-block;margin-top:8px;font-size:11px;font-weight:800;color:#1479ff;border:1px solid #dce6f0;border-radius:20px;padding:3px 11px;transition:.2s}
