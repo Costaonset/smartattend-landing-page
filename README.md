@@ -1,2 +1,0 @@
-# smartattend-landing-page
-assignment
