@@ -15,7 +15,8 @@ HTML5, CSS3 (responsive, no framework), JavaScript (mobile menu), Git/GitHub, Ji
 4. Create a branch named with the Jira key, e.g. `SCRUM-8-team-section`, commit, push and open a pull request.
 
 ## Live link
-<https://YOUR-LIVE-URL-HERE> (replace after deployment)
+
+venerable-madeleine-416269.netlify.app
 
 ## Team responsibilities
 | Member | GitHub | Responsibility |
