@@ -1,12 +1,17 @@
 const menu = document.querySelector('.menu');
+const navRight = document.querySelector('.nav-right');
 const links = document.querySelector('.nav-links');
-menu.addEventListener('click', () => {
-  const open = links.classList.toggle('open');
-  menu.setAttribute('aria-expanded', open);
-});
+
+if (menu && navRight) {
+  menu.addEventListener('click', () => {
+    const open = navRight.classList.toggle('open');
+    menu.setAttribute('aria-expanded', String(open));
+  });
+}
+
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => {
-    links.classList.remove('open');
-    menu.setAttribute('aria-expanded', 'false');
+    if (navRight) navRight.classList.remove('open');
+    if (menu) menu.setAttribute('aria-expanded', 'false');
   });
 });
