@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn about EduNav and contact the team to make school inquiries." />
+    <title>About | EduNav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="EduNav home page">
+          <span class="brand-mark">E</span>
+          EduNav
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="schools.html">Schools</a>
+          <a href="map.html">Map</a>
+          <a href="services.html">Services</a>
+          <a href="about.html" class="active">About</a>
+        </nav>
+
+        <a href="map.html" class="btn btn-primary nav-cta">Explore map</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">ABOUT EDU NAV</p>
+          <h1>Making school information easy to find and understand.</h1>
+          <p>EduNav is a centralized school information platform designed to support families, students, and educators across Zambia.</p>
+        </div>
+      </section>
+
+      <section class="page-shell contact-section">
+        <div class="container contact-grid">
+          <article class="contact-card">
+            <h3>Our mission</h3>
+            <p>To make school discovery clear, organized, and accessible for people looking for the right education option in their area.</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Our focus</h3>
+            <p>We map schools across Zambia by province, district, and town so users can narrow their search quickly and confidently.</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Who it helps</h3>
+            <p>Parents, students, teachers, and school administrators looking for better ways to discover and compare educational institutions.</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Contact details</h3>
+            <ul class="contact-list">
+              <li>Phone: +260 977 123 456</li>
+              <li>Email: info@edunav.org</li>
+              <li>Location: Lusaka, Zambia</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="container" style="margin-top: 28px;">
+          <div class="form-box">
+            <h3>Make an inquiry</h3>
+            <form data-contact-form>
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your full name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Tell us what information you need" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send inquiry</button>
+              <p class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <span class="brand-mark">E</span>
+            EduNav
+          </a>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer links">
+          <a href="schools.html">Schools</a>
+          <a href="map.html">Map</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <p>© <span id="year"></span> EduNav. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
