@@ -2,6 +2,7 @@ document.documentElement.classList.add('js');
 
 const header = document.querySelector('.header');
 const menu = document.querySelector('.menu');
+const navRight = document.querySelector('.nav-right');
 const links = document.querySelector('.nav-links');
 
 // Mobile menu
